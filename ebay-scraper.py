@@ -17,7 +17,7 @@ def user_input():
 
 
 def website_data(search):
-    # URL contains search filters: used items and sold listings
+    # URL contains search filters: used items, sold listings, and UK only
     url = f'https://www.ebay.co.uk/sch/i.html?_from=R40&_nkw={search}' \
           f'&_in_kw=1&_ex_kw=&_sacat=0&LH_Sold=1&_udlo=&_udhi=&LH_ItemCondition=4&_samilow=&_samihi=&_sadis=15' \
           f'&_stpos=M300AA&_sargn=-1%26saslc%3D1&_salic=3&_sop=12&_dmd=1&_ipg=60&LH_Complete=1&rt=nc&LH_PrefLoc=1'
@@ -59,3 +59,4 @@ print('')
 print(f'The average sold price: £{str(mean)}')
 print(f'The median price is: £{str(median)}')
 print(f'The mode is: £{str(mode)}')
+print('')
