@@ -1,10 +1,9 @@
 import requests
-from bs4 import BeautifulSoup
 import statistics
+from bs4 import BeautifulSoup
 
-
-# take user input for search term
 def user_input():
+    # take user input for search term
     while True:
         try:
             item = input('Enter the item to search: ')
