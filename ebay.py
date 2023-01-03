@@ -2,6 +2,7 @@ import requests
 import statistics
 from bs4 import BeautifulSoup
 
+
 def user_input():
     # take user input for search term
     while True:
